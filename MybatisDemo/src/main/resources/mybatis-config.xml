@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="db.properties"/>
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="com.mybatis.db.DruidDataSourceFacotry">
+       <!-- <property name="driver" value="${driverClass}"/>-->
+        <property name="url" value="${url}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+        
+       <!--  <property name="poolMaximumActiveConnections" value="${poolMaximumActiveConnections}"/>在任意时间可以存在的活动（也就是正在使用）连接数量，默认值：10
+        <property name="poolMaximumIdleConnections" value="${poolMaximumIdleConnections}"/>任意时间可能存在的空闲连接数
+        <property name="poolMaximumCheckoutTime" value="${poolMaximumCheckoutTime}"/>在被强制返回之前，池中连接被检出（checked out）时间 
+        <property name="poolTimeToWait" value="${poolTimeToWait}"/>如果获取连接花费了相当长的时间，连接池会打印状态日志并重新尝试获取一个连接 
+        <property name="poolMaximumLocalBadConnectionTolerance" value="${poolMaximumLocalBadConnectionTolerance}"/>这是一个关于坏连接容忍度的底层设置
+        <property name="poolPingQuery" value="${poolPingQuery}"/>发送到数据库的侦测查询，用来检验连接是否正常工作并准备接受请求。 
+        <property name="poolPingEnabled" value="${poolPingEnabled}"/>是否启用侦测查询 
+        <property name="poolPingConnectionsNotUsedFor" value="${poolPingConnectionsNotUsedFor}"/>配置 poolPingQuery 的频率 -->
+      </dataSource>
+    </environment>
+  </environments>
+  <databaseIdProvider type="DB_VENDOR">
+  		<property name="SQL Server" value="sqlserver"/>
+  		<property name="DB2" value="db2"/>        
+  		<property name="Oracle" value="oracle" />
+	</databaseIdProvider>
+   <!-- <typeAliases>
+        <typeAlias type="com.mybatis.pojo.User" alias="user"/>
+    </typeAliases>-->
+   <!--<mappers>
+    <mapper resource="org/mybatis/example/BlogMapper.xml"/>
+  </mappers> -->
+</configuration>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tk.mybatis.mapper.mapper.CoreFunctionMapper">
+  <resultMap id="BaseResultMap" type="tk.mybatis.mapper.model.CoreFunction">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="PARENT_ID" jdbcType="INTEGER" property="parentId" />
+    <result column="TYPE" jdbcType="VARCHAR" property="type" />
+    <result column="CODE" jdbcType="LONGVARCHAR" property="code" />
+    <result column="ACCESS_URL" jdbcType="LONGVARCHAR" property="accessUrl" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="tk.mybatis.mapper.model.CoreFunction">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="PARENT_ID" jdbcType="INTEGER" property="parentId" />
+    <result column="TYPE" jdbcType="VARCHAR" property="type" />
+    <result column="CODE" jdbcType="LONGVARCHAR" property="code" />
+    <result column="ACCESS_URL" jdbcType="LONGVARCHAR" property="accessUrl" />
+  </resultMap>
+</mapper>

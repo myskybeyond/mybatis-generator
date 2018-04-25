@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tk.mybatis.mapper.mapper.CoreFileMapper">
+  <resultMap id="BaseResultMap" type="tk.mybatis.mapper.model.CoreFile">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="PATH" jdbcType="VARCHAR" property="path" />
+    <result column="BIZ_ID" jdbcType="VARCHAR" property="bizId" />
+    <result column="USER_ID" jdbcType="INTEGER" property="userId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="ORG_ID" jdbcType="INTEGER" property="orgId" />
+    <result column="BIZ_TYPE" jdbcType="VARCHAR" property="bizType" />
+    <result column="FILE_BATCH_ID" jdbcType="VARCHAR" property="fileBatchId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="tk.mybatis.mapper.model.CoreFile">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="PATH" jdbcType="VARCHAR" property="path" />
+    <result column="BIZ_ID" jdbcType="VARCHAR" property="bizId" />
+    <result column="USER_ID" jdbcType="INTEGER" property="userId" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="ORG_ID" jdbcType="INTEGER" property="orgId" />
+    <result column="BIZ_TYPE" jdbcType="VARCHAR" property="bizType" />
+    <result column="FILE_BATCH_ID" jdbcType="VARCHAR" property="fileBatchId" />
+  </resultMap>
+</mapper>
