@@ -1,6 +1,6 @@
-package mapper;
+package com.mybatis.mapper;
 
-import model.CoreOrg;
+import com.mybatis.model.CoreOrg;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface CoreOrgMapper extends Mapper<CoreOrg> {

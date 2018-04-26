@@ -1,6 +1,6 @@
-package mapper;
+package com.mybatis.mapper;
 
-import model.CoreRoleFunction;
+import com.mybatis.model.CoreRoleFunction;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface CoreRoleFunctionMapper extends Mapper<CoreRoleFunction> {

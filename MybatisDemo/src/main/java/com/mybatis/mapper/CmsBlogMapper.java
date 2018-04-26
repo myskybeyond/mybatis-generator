@@ -1,6 +1,6 @@
-package mapper;
+package com.mybatis.mapper;
 
-import model.CmsBlog;
+import com.mybatis.model.CmsBlog;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface CmsBlogMapper extends Mapper<CmsBlog> {

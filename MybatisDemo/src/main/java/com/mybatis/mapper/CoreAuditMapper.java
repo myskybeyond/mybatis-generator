@@ -1,6 +1,6 @@
-package mapper;
+package com.mybatis.mapper;
 
-import model.CoreAudit;
+import com.mybatis.model.CoreAudit;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface CoreAuditMapper extends Mapper<CoreAudit> {

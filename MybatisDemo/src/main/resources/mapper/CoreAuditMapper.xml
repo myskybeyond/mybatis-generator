@@ -1,64 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="mapper.CoreAuditMapper">
-  <resultMap id="BaseResultMap" type="model.CoreAudit">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mybatis.mapper.CoreAuditMapper" >
+  <resultMap id="BaseResultMap" type="com.mybatis.model.CoreAudit" >
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="ID" jdbcType="INTEGER" property="id" />
-    <result column="FUNCTION_CODE" jdbcType="VARCHAR" property="functionCode" />
-    <result column="FUNCTION_NAME" jdbcType="VARCHAR" property="functionName" />
-    <result column="USER_ID" jdbcType="INTEGER" property="userId" />
-    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
-    <result column="IP" jdbcType="VARCHAR" property="ip" />
-    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="SUCCESS" jdbcType="TINYINT" property="success" />
-    <result column="ORG_ID" jdbcType="VARCHAR" property="orgId" />
-    <result column="MESSAGE" jdbcType="LONGVARCHAR" property="message" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/com/mybatis/model.CoreAudit">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="ID" jdbcType="INTEGER" property="id" />
-    <result column="FUNCTION_CODE" jdbcType="VARCHAR" property="functionCode" />
-    <result column="FUNCTION_NAME" jdbcType="VARCHAR" property="functionName" />
-    <result column="USER_ID" jdbcType="INTEGER" property="userId" />
-    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
-    <result column="IP" jdbcType="VARCHAR" property="ip" />
-    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="SUCCESS" jdbcType="TINYINT" property="success" />
-    <result column="ORG_ID" jdbcType="VARCHAR" property="orgId" />
-    <result column="MESSAGE" jdbcType="LONGVARCHAR" property="message" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/model.CoreAudit">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="ID" jdbcType="INTEGER" property="id" />
-    <result column="FUNCTION_CODE" jdbcType="VARCHAR" property="functionCode" />
-    <result column="FUNCTION_NAME" jdbcType="VARCHAR" property="functionName" />
-    <result column="USER_ID" jdbcType="INTEGER" property="userId" />
-    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
-    <result column="IP" jdbcType="VARCHAR" property="ip" />
-    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="SUCCESS" jdbcType="TINYINT" property="success" />
-    <result column="ORG_ID" jdbcType="VARCHAR" property="orgId" />
-    <result column="MESSAGE" jdbcType="LONGVARCHAR" property="message" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/model.CoreAudit">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="ID" jdbcType="INTEGER" property="id" />
-    <result column="FUNCTION_CODE" jdbcType="VARCHAR" property="functionCode" />
-    <result column="FUNCTION_NAME" jdbcType="VARCHAR" property="functionName" />
-    <result column="USER_ID" jdbcType="INTEGER" property="userId" />
-    <result column="USER_NAME" jdbcType="VARCHAR" property="userName" />
-    <result column="IP" jdbcType="VARCHAR" property="ip" />
-    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
-    <result column="SUCCESS" jdbcType="TINYINT" property="success" />
-    <result column="ORG_ID" jdbcType="VARCHAR" property="orgId" />
-    <result column="MESSAGE" jdbcType="LONGVARCHAR" property="message" />
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="FUNCTION_CODE" property="functionCode" jdbcType="VARCHAR" />
+    <result column="FUNCTION_NAME" property="functionName" jdbcType="VARCHAR" />
+    <result column="USER_ID" property="userId" jdbcType="INTEGER" />
+    <result column="USER_NAME" property="userName" jdbcType="VARCHAR" />
+    <result column="IP" property="ip" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="SUCCESS" property="success" jdbcType="TINYINT" />
+    <result column="ORG_ID" property="orgId" jdbcType="VARCHAR" />
+    <result column="MESSAGE" property="message" jdbcType="LONGVARCHAR" />
   </resultMap>
 </mapper>

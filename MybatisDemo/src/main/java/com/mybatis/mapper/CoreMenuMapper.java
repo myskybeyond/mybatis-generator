@@ -1,6 +1,6 @@
-package mapper;
+package com.mybatis.mapper;
 
-import model.CoreMenu;
+import com.mybatis.model.CoreMenu;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface CoreMenuMapper extends Mapper<CoreMenu> {

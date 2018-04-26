@@ -1,44 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="mapper.CoreRoleFunctionMapper">
-  <resultMap id="BaseResultMap" type="model.CoreRoleFunction">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mybatis.mapper.CoreRoleFunctionMapper" >
+  <resultMap id="BaseResultMap" type="com.mybatis.model.CoreRoleFunction" >
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="ID" jdbcType="INTEGER" property="id" />
-    <result column="ROLE_ID" jdbcType="INTEGER" property="roleId" />
-    <result column="FUNCTION_ID" jdbcType="INTEGER" property="functionId" />
-    <result column="DATA_ACCESS_TYPE" jdbcType="TINYINT" property="dataAccessType" />
-    <result column="DATA_ACCESS_POLICY" jdbcType="VARCHAR" property="dataAccessPolicy" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/com/mybatis/model.CoreRoleFunction">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="ID" jdbcType="INTEGER" property="id" />
-    <result column="ROLE_ID" jdbcType="INTEGER" property="roleId" />
-    <result column="FUNCTION_ID" jdbcType="INTEGER" property="functionId" />
-    <result column="DATA_ACCESS_TYPE" jdbcType="TINYINT" property="dataAccessType" />
-    <result column="DATA_ACCESS_POLICY" jdbcType="VARCHAR" property="dataAccessPolicy" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/model.CoreRoleFunction">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="ID" jdbcType="INTEGER" property="id" />
-    <result column="ROLE_ID" jdbcType="INTEGER" property="roleId" />
-    <result column="FUNCTION_ID" jdbcType="INTEGER" property="functionId" />
-    <result column="DATA_ACCESS_TYPE" jdbcType="TINYINT" property="dataAccessType" />
-    <result column="DATA_ACCESS_POLICY" jdbcType="VARCHAR" property="dataAccessPolicy" />
-  </resultMap>
-  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/model.CoreRoleFunction">
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="ID" jdbcType="INTEGER" property="id" />
-    <result column="ROLE_ID" jdbcType="INTEGER" property="roleId" />
-    <result column="FUNCTION_ID" jdbcType="INTEGER" property="functionId" />
-    <result column="DATA_ACCESS_TYPE" jdbcType="TINYINT" property="dataAccessType" />
-    <result column="DATA_ACCESS_POLICY" jdbcType="VARCHAR" property="dataAccessPolicy" />
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="ROLE_ID" property="roleId" jdbcType="INTEGER" />
+    <result column="FUNCTION_ID" property="functionId" jdbcType="INTEGER" />
+    <result column="DATA_ACCESS_TYPE" property="dataAccessType" jdbcType="TINYINT" />
+    <result column="DATA_ACCESS_POLICY" property="dataAccessPolicy" jdbcType="VARCHAR" />
   </resultMap>
 </mapper>

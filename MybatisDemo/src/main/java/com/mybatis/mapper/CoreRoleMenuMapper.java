@@ -1,6 +1,6 @@
-package mapper;
+package com.mybatis.mapper;
 
-import model.CoreRoleMenu;
+import com.mybatis.model.CoreRoleMenu;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface CoreRoleMenuMapper extends Mapper<CoreRoleMenu> {

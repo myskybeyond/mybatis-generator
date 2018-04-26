@@ -1,4 +1,4 @@
-package model;
+package com.mybatis.model;
 
 import javax.persistence.*;
 
