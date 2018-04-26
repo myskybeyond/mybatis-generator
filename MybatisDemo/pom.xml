@@ -10,9 +10,9 @@
     <properties>
         <!--  MyBatis Generator  -->
         <!--  Java接口和实体类  -->
-        <targetJavaProject>${basedir}/src/main/java</targetJavaProject>
-        <targetMapperPackage>tk.mybatis.mapper.mapper</targetMapperPackage>
-        <targetModelPackage>tk.mybatis.mapper.model</targetModelPackage>
+        <targetJavaProject>${basedir}/src/main/java/com/mybatis</targetJavaProject>
+        <targetMapperPackage>mapper</targetMapperPackage>
+        <targetModelPackage>model</targetModelPackage>
         <!--  XML生成路径  -->
         <targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>
         <targetXMLPackage>mapper</targetXMLPackage>

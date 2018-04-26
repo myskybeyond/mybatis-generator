@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="tk.mybatis.mapper.mapper.CoreOrgMapper">
-  <resultMap id="BaseResultMap" type="tk.mybatis.mapper.model.CoreOrg">
+<mapper namespace="mapper.CoreOrgMapper">
+  <resultMap id="BaseResultMap" type="model.CoreOrg">
     <!--
       WARNING - @mbg.generated
     -->
@@ -13,7 +13,31 @@
     <result column="TYPE" jdbcType="VARCHAR" property="type" />
     <result column="DEL_FLAG" jdbcType="TINYINT" property="delFlag" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="tk.mybatis.mapper.model.CoreOrg">
+  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/com/mybatis/model.CoreOrg">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="CODE" jdbcType="VARCHAR" property="code" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="PARENT_ORG_ID" jdbcType="INTEGER" property="parentOrgId" />
+    <result column="TYPE" jdbcType="VARCHAR" property="type" />
+    <result column="DEL_FLAG" jdbcType="TINYINT" property="delFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/model.CoreOrg">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="CODE" jdbcType="VARCHAR" property="code" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="PARENT_ORG_ID" jdbcType="INTEGER" property="parentOrgId" />
+    <result column="TYPE" jdbcType="VARCHAR" property="type" />
+    <result column="DEL_FLAG" jdbcType="TINYINT" property="delFlag" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/model.CoreOrg">
     <!--
       WARNING - @mbg.generated
     -->

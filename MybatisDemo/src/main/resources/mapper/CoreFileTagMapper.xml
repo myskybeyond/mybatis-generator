@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="tk.mybatis.mapper.mapper.CoreFileTagMapper">
-  <resultMap id="BaseResultMap" type="tk.mybatis.mapper.model.CoreFileTag">
+<mapper namespace="mapper.CoreFileTagMapper">
+  <resultMap id="BaseResultMap" type="model.CoreFileTag">
     <!--
       WARNING - @mbg.generated
     -->
@@ -10,7 +10,25 @@
     <result column="VALUE" jdbcType="VARCHAR" property="value" />
     <result column="FILE_ID" jdbcType="INTEGER" property="fileId" />
   </resultMap>
-  <resultMap id="BaseResultMap" type="tk.mybatis.mapper.model.CoreFileTag">
+  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/com/mybatis/model.CoreFileTag">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="KEY" jdbcType="VARCHAR" property="key" />
+    <result column="VALUE" jdbcType="VARCHAR" property="value" />
+    <result column="FILE_ID" jdbcType="INTEGER" property="fileId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/model.CoreFileTag">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="KEY" jdbcType="VARCHAR" property="key" />
+    <result column="VALUE" jdbcType="VARCHAR" property="value" />
+    <result column="FILE_ID" jdbcType="INTEGER" property="fileId" />
+  </resultMap>
+  <resultMap id="BaseResultMap" type="D:\IDEA\MybatisDemo/src/main/java/model.CoreFileTag">
     <!--
       WARNING - @mbg.generated
     -->
